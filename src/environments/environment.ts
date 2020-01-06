@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  config:{
+    apiKey: "AIzaSyBcr1_RaISjDiuo2F5LZGLl1nh8bSrGBiM",
+    authDomain: "codeamm-socialapp.firebaseapp.com",
+    databaseURL: "https://codeamm-socialapp.firebaseio.com",
+    projectId: "codeamm-socialapp",
+    storageBucket: "codeamm-socialapp.appspot.com",
+    messagingSenderId: "809760674083",
+    appId: "1:809760674083:web:ad0e3f67300f075792bc96",
+    measurementId: "G-7K206Q9303"
+  }
 };
 
 /*
